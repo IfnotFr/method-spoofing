@@ -1,10 +1,12 @@
 <?php namespace Ifnot\MethodSpoofing;
 
+use Illuminate\Support\ServiceProvider;
+
 /**
  * Class MethodSpoofingServiceProvider
  * @package Ifnot\MethodSpoofing
  */
-class MethodSpoofingServiceProvider
+class MethodSpoofingServiceProvider extends ServiceProvider
 {
 	public function register()
 	{
